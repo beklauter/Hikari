@@ -40,3 +40,12 @@ Optional
 Für einfachere Umsetzung: Die Markdown-Verarbeitung kann komplett im Frontend stattfinden (gibt viele JS-Bibliotheken).
 
 Für Sicherheit, Erweiterbarkeit und Persistenz lohnt sich das Backend z.B. für Speichern, Export und komplexere Verarbeitung.
+
+
+
+
+Future:
+
+Updaten das man sich ein Profil einrichten kann und dann auch Notizen im Profil bzw auf der Website Speichern
+
+Dann kann man auch eine Desktop App entwickeln und diese dann Syncen
