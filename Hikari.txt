@@ -1,0 +1,42 @@
+Description 1:
+Hikari is a lightweight web-based Markdown editor with real-time rendering and syntax highlighting. It combines a fast Rust backend for file management and processing with a modern React frontend for an interactive and visually clear editing experience.
+Description 2:
+Hikari is a lightweight web Markdown editor with real-time rendering, combining Rust backend and React frontend.
+
+
+Für das Projekt „Hikari – Web-Based Markdown Editor“ mit Rust (Backend) und React (Frontend) könnte die Aufteilung so aussehen:
+
+Frontend (React)
+Benutzeroberfläche für die Markdown-Eingabe (Textarea oder Editor-Komponente).
+
+Live-Rendering der Markdown-Vorschau als HTML.
+
+Syntax-Highlighting und visuelle Lichtakzente (z.B. Farben, Hervorhebungen) im Editor und in der Vorschau.
+
+Steuerungselemente (Buttons, Einstellungen für Themes, Export-Optionen).
+
+Kommunikation mit dem Backend via HTTP-API oder WebSocket (optional).
+
+Responsive Design und Interaktivität.
+
+Backend (Rust)
+Verarbeitung und Parsing der Markdown-Inhalte (optional, falls reines Client-Rendering nicht genügt).
+
+Erweiterte Funktionen wie z.B.:
+
+Speichern und Laden von Markdown-Dateien.
+
+Konvertierung in andere Formate (PDF, DOCX).
+
+Nutzerverwaltung und Projekt-Sessions (wenn gewünscht).
+
+Leistungsstarke und sichere API für Speicherung und Verarbeitung.
+
+Integration von erweiterten Markdown-Features oder Plugins.
+
+Eventuell Echtzeit-Synchronisation zwischen Nutzern (WebSocket).
+
+Optional
+Für einfachere Umsetzung: Die Markdown-Verarbeitung kann komplett im Frontend stattfinden (gibt viele JS-Bibliotheken).
+
+Für Sicherheit, Erweiterbarkeit und Persistenz lohnt sich das Backend z.B. für Speichern, Export und komplexere Verarbeitung.
